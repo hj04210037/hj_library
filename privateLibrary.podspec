@@ -28,7 +28,67 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'privateLibrary/Classes/**/*'
+  #s.source_files = 'privateLibrary/Classes/**/*'
+  
+  
+  s.subspec 'GQHDatePicker' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
+  end
+  
+  s.subspec 'GQHGlobalTimer' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHGlobalTimer/*'
+  end
+  
+  s.subspec 'GQHPCDPickerView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHPCDPickerView/*'
+  end
+  
+  s.subspec 'GQHSinglePicker' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHPCDPickerView/*'
+  end
+  
+  s.subspec 'GQHSlideView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHSlideView/*'
+    ss.dependency 'SDWebImage'
+  end
+  
+  s.subspec 'GQHStepperView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHStepperView/*'
+  end
+  
+  s.subspec 'SegmentView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/SegmentView/*'
+  end
+  
+  s.subspec 'SGPagingView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/SGPagingView/*'
+       ss.subspec 'Category' do |sss|
+           sss.source_files = 'privateLibrary/Classes/SGPagingView/Category/*'
+        end
+       ss.subspec 'SGPageContent' do |sss|
+           sss.source_files = 'privateLibrary/Classes/SGPagingView/SGPageContent/*'
+        end
+      ss.subspec 'SGPageTitle' do |sss|
+           sss.source_files = 'privateLibrary/Classes/SGPagingView/SGPageTitle/*'
+        end
+      ss.subspec 'Controller' do |sss|
+         sss.source_files = 'privateLibrary/Classes/SGPagingView/Controller/*'
+        end
+  end
+  
+  
+  s.subspec 'SortingByPinyin' do |ss|
+    ss.source_files = 'privateLibrary/Classes/SortingByPinyin/*'
+  end
+  
+  s.subspec 'TouchID' do |ss|
+    ss.source_files = 'privateLibrary/Classes/TouchID/*'
+  end
+  
+  s.subspec 'GJNoCrash' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GJNoCrash/*'
+  end
+  
  
    s.resource_bundles = {
      'privateLibrary' => ['privateLibrary/Assets/*.png']

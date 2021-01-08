@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "privateLibrary/Classes/**/*",
   "resource_bundles": {
     "privateLibrary": [
       "privateLibrary/Assets/*.png"
@@ -28,5 +27,74 @@
     "SDWebImage": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "GQHDatePicker",
+      "source_files": "privateLibrary/Classes/GQHDatePicker/*"
+    },
+    {
+      "name": "GQHGlobalTimer",
+      "source_files": "privateLibrary/Classes/GQHGlobalTimer/*"
+    },
+    {
+      "name": "GQHPCDPickerView",
+      "source_files": "privateLibrary/Classes/GQHPCDPickerView/*"
+    },
+    {
+      "name": "GQHSinglePicker",
+      "source_files": "privateLibrary/Classes/GQHPCDPickerView/*"
+    },
+    {
+      "name": "GQHSlideView",
+      "source_files": "privateLibrary/Classes/GQHSlideView/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "GQHStepperView",
+      "source_files": "privateLibrary/Classes/GQHStepperView/*"
+    },
+    {
+      "name": "SegmentView",
+      "source_files": "privateLibrary/Classes/SegmentView/*"
+    },
+    {
+      "name": "SGPagingView",
+      "source_files": "privateLibrary/Classes/SGPagingView/*",
+      "subspecs": [
+        {
+          "name": "Category",
+          "source_files": "privateLibrary/Classes/SGPagingView/Category/*"
+        },
+        {
+          "name": "SGPageContent",
+          "source_files": "privateLibrary/Classes/SGPagingView/SGPageContent/*"
+        },
+        {
+          "name": "SGPageTitle",
+          "source_files": "privateLibrary/Classes/SGPagingView/SGPageTitle/*"
+        },
+        {
+          "name": "Controller",
+          "source_files": "privateLibrary/Classes/SGPagingView/Controller/*"
+        }
+      ]
+    },
+    {
+      "name": "SortingByPinyin",
+      "source_files": "privateLibrary/Classes/SortingByPinyin/*"
+    },
+    {
+      "name": "TouchID",
+      "source_files": "privateLibrary/Classes/TouchID/*"
+    },
+    {
+      "name": "GJNoCrash",
+      "source_files": "privateLibrary/Classes/GJNoCrash/*"
+    }
+  ]
 }
