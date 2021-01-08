@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - privateLibrary (0.1.0):
+    - privateLibrary/GQHDatePicker (= 0.1.0)
+  - privateLibrary/GQHDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - privateLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  privateLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  privateLibrary: 863b0c89869df9f173a2ee73eb5a85d429980c93
+
+PODFILE CHECKSUM: 4e495300deb8b367fb3556b8055cb3d76d3eaea1
+
+COCOAPODS: 1.10.0

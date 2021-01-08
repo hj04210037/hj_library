@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FEF89E25A80C7800622B7A /* GQHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEF89D25A80C7800622B7A /* GQHDatePickerView.m */; };
 		2E68C9DE12C8C6021013ADC8 /* Pods_privateLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16668C3398901D4637CEC7E /* Pods_privateLibrary_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		526545A8E3128CB38A867B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		06FEF89C25A80C7800622B7A /* GQHDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQHDatePickerView.h; sourceTree = "<group>"; };
+		06FEF89D25A80C7800622B7A /* GQHDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQHDatePickerView.m; sourceTree = "<group>"; };
+		526545A8E3128CB38A867B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CE4D6C5C093DA9F5424D034 /* Pods-privateLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privateLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-privateLibrary_Tests/Pods-privateLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* privateLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = privateLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,8 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		954D2C990D20D1102505C8B5 /* privateLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = privateLibrary.podspec; path = ../privateLibrary.podspec; sourceTree = "<group>"; };
-		AC7577FCE98C2BC2F2886596 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		954D2C990D20D1102505C8B5 /* privateLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = privateLibrary.podspec; path = ../privateLibrary.podspec; sourceTree = "<group>"; };
+		AC7577FCE98C2BC2F2886596 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D16668C3398901D4637CEC7E /* Pods_privateLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_privateLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99E2BCD97D543852A775A3B /* Pods-privateLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privateLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-privateLibrary_Example/Pods-privateLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1ACBD4A24FF30AEF6FB88B0 /* Pods-privateLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privateLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-privateLibrary_Tests/Pods-privateLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06FEF88125A80B6000622B7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06FEF89B25A80C7800622B7A /* GQHDatePicker */,
+			);
+			name = Classes;
+			path = ../../privateLibrary/Classes;
+			sourceTree = "<group>";
+		};
+		06FEF88425A80B6000622B7A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = ../../privateLibrary/Assets;
+			sourceTree = "<group>";
+		};
+		06FEF89B25A80C7800622B7A /* GQHDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				06FEF89C25A80C7800622B7A /* GQHDatePickerView.h */,
+				06FEF89D25A80C7800622B7A /* GQHDatePickerView.m */,
+			);
+			path = GQHDatePicker;
+			sourceTree = "<group>";
+		};
 		33A58DBFAFFA463060ADCA25 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +132,6 @@
 				F1ACBD4A24FF30AEF6FB88B0 /* Pods-privateLibrary_Tests.debug.xcconfig */,
 				5CE4D6C5C093DA9F5424D034 /* Pods-privateLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +172,8 @@
 		6003F593195388D20070C39A /* Example for privateLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				06FEF88425A80B6000622B7A /* Assets */,
+				06FEF88125A80B6000622B7A /* Classes */,
 				6003F59C195388D20070C39A /* HJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -259,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -384,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
+				06FEF89E25A80C7800622B7A /* GQHDatePickerView.m in Sources */,
 				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

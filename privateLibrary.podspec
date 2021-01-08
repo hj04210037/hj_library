@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of privateLibrary.'
+  s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'seed private library'
 
-  s.homepage         = 'https://github.com/hujie/privateLibrary'
+  s.homepage         = 'https://github.com/hj04210037/hj_library'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hujie' => '493518368@qq.com' }
@@ -30,7 +28,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'privateLibrary/Classes/**/*'
+  #s.source_files = 'privateLibrary/Classes/*'
+  s.subspec 'GQHDatePicker' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
+  end
   
   # s.resource_bundles = {
   #   'privateLibrary' => ['privateLibrary/Assets/*.png']

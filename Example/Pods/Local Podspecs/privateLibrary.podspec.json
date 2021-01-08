@@ -1,0 +1,27 @@
+{
+  "name": "privateLibrary",
+  "version": "0.1.0",
+  "summary": "app private library",
+  "description": "seed private library",
+  "homepage": "https://github.com/hj04210037/hj_library",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hujie": "493518368@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hujie/privateLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "GQHDatePicker",
+      "source_files": "privateLibrary/Classes/GQHDatePicker/*"
+    }
+  ]
+}
