@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hujie' => '493518368@qq.com' }
-  s.source           = { :git => 'https://github.com/hujie/privateLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hj04210037/hj_library.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

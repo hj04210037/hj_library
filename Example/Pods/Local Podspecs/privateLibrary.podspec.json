@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -12,8 +12,8 @@
     "hujie": "493518368@qq.com"
   },
   "source": {
-    "git": "https://github.com/hujie/privateLibrary.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/hj04210037/hj_library.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"

@@ -4,9 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - privateLibrary (0.1.1):
-    - privateLibrary/GQHDatePicker (= 0.1.1)
-  - privateLibrary/GQHDatePicker (0.1.1)
+  - privateLibrary (0.1.2):
+    - privateLibrary/GQHDatePicker (= 0.1.2)
+  - privateLibrary/GQHDatePicker (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  privateLibrary: e66ec0f8f998d5fac7d42d322d058369a5eadccc
+  privateLibrary: c0c6fd4e93c1369663a7664eb4b8f57bc2ee6037
 
 PODFILE CHECKSUM: 4e495300deb8b367fb3556b8055cb3d76d3eaea1
 
