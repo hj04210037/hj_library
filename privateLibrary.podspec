@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,13 @@ Pod::Spec.new do |s|
   s.subspec 'GQHDatePicker' do |ss|
     ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
   end
+  
+    s.subspec 'GQHGlobalTimer' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GQHGlobalTimer/*'
+  end
+  
+  
+  
   
   # s.resource_bundles = {
   #   'privateLibrary' => ['privateLibrary/Assets/*.png']

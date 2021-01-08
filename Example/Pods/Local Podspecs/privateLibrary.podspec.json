@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,6 +22,10 @@
     {
       "name": "GQHDatePicker",
       "source_files": "privateLibrary/Classes/GQHDatePicker/*"
+    },
+    {
+      "name": "GQHGlobalTimer",
+      "source_files": "privateLibrary/Classes/GQHGlobalTimer/*"
     }
   ]
 }

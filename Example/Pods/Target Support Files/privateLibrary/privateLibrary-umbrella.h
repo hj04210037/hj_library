@@ -11,6 +11,7 @@
 #endif
 
 #import "GQHDatePickerView.h"
+#import "GQHGlobalTimer.h"
 
 FOUNDATION_EXPORT double privateLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char privateLibraryVersionString[];
