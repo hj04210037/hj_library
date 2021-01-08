@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -28,23 +28,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  #s.source_files = 'privateLibrary/Classes/*'
-  s.subspec 'GQHDatePicker' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
-  end
-  
-    s.subspec 'GQHGlobalTimer' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHGlobalTimer/*'
-  end
-  
-  
-  
-  
-  # s.resource_bundles = {
-  #   'privateLibrary' => ['privateLibrary/Assets/*.png']
-  # }
+  s.source_files = 'privateLibrary/Classes/**/*'
+ 
+   s.resource_bundles = {
+     'privateLibrary' => ['privateLibrary/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  
+  s.dependency 'SDWebImage'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

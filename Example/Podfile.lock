@@ -4,11 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - privateLibrary (0.1.3):
-    - privateLibrary/GQHDatePicker (= 0.1.3)
-    - privateLibrary/GQHGlobalTimer (= 0.1.3)
-  - privateLibrary/GQHDatePicker (0.1.3)
-  - privateLibrary/GQHGlobalTimer (0.1.3)
+  - privateLibrary (0.1.5):
+    - SDWebImage
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -17,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - SDWebImage
 
 EXTERNAL SOURCES:
   privateLibrary:
@@ -24,7 +25,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  privateLibrary: e768149894a978ac9550f3a2779e4c07bcbb5103
+  privateLibrary: d37c07c6691f8057315265235ca8ec093e71eca5
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
 
 PODFILE CHECKSUM: 4e495300deb8b367fb3556b8055cb3d76d3eaea1
 
