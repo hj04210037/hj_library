@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.2.0'
+  s.version          = '0.2.2'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -41,13 +41,35 @@ Pod::Spec.new do |s|
     ss.dependency 'hl'
   end
   
-  s.subspec 'test' do |te|
-    te.source_files ='privateLibrary/Classes/test/*'
-  end
   
   s.subspec 'CountDown' do |co|
       co.source_files ='privateLibrary/Classes/CountDown/*'
   end
+  
+  
+  s.subspec 'IQKeyboardManager' do |iq|
+        iq.source_files ='privateLibrary/Classes/IQKeyboardManager/*'
+        
+         iq.subspec 'IQTextView' do |tx|
+            tx.source_files ='privateLibrary/Classes/IQKeyboardManager/IQTextView/*'
+       end
+       
+         iq.subspec 'IQToolbar' do |it|
+            it.source_files ='privateLibrary/Classes/IQKeyboardManager/IQToolbar/*'
+       end
+       
+       
+        iq.subspec 'Constants' do |ct|
+         ct.source_files ='privateLibrary/Classes/IQKeyboardManager/Constants/*'
+      end
+       
+      iq.subspec 'Categories' do |cg|
+         cg.source_files ='privateLibrary/Classes/IQKeyboardManager/Categories/*'
+       end
+        
+        
+  end
+
 
 
 

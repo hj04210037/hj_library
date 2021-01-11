@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -43,6 +43,28 @@
     {
       "name": "CountDown",
       "source_files": "privateLibrary/Classes/CountDown/*"
+    },
+    {
+      "name": "IQKeyboardManager",
+      "source_files": "privateLibrary/Classes/IQKeyboardManager/*",
+      "subspecs": [
+        {
+          "name": "IQTextView",
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQTextView/*"
+        },
+        {
+          "name": "IQToolbar",
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQToolbar/*"
+        },
+        {
+          "name": "Constants",
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/Constants/*"
+        },
+        {
+          "name": "Categories",
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/Categories/*"
+        }
+      ]
     }
   ]
 }
