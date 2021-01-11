@@ -10,18 +10,6 @@
 #endif
 #endif
 
-#import "GJCrashLog.h"
-#import "NSArray+GJCrash.h"
-#import "NSAttributedString+GJCrash.h"
-#import "NSDictionary+GJCrash.h"
-#import "NSMutableArray+GJCrash.h"
-#import "NSMutableAttributedString+GJCrash.h"
-#import "NSMutableDictionary+GJCrash.h"
-#import "NSMutableString+GJCrash.h"
-#import "NSObject+GJSwizzle.h"
-#import "NSObject+KVOCrash.h"
-#import "NSObject+NSNotificationCrash.h"
-#import "NSString+GJCrash.h"
 #import "GQHDatePickerView.h"
 #import "GQHGlobalTimer.h"
 #import "GQHPCDPickerView.h"
@@ -40,9 +28,6 @@
 #import "QHSegmentContentScrollView.h"
 #import "QHSegmentContentView.h"
 #import "QHSegmentTitleView.h"
-#import "QHChinesePhrase.h"
-#import "QHInitial.h"
-#import "TouchID.h"
 
 FOUNDATION_EXPORT double privateLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char privateLibraryVersionString[];

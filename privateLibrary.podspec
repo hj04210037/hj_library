@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -31,65 +31,12 @@ Pod::Spec.new do |s|
   #s.source_files = 'privateLibrary/Classes/**/*'
   
   
-  s.subspec 'GQHDatePicker' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
-  end
-  
-  s.subspec 'GQHGlobalTimer' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHGlobalTimer/*'
-  end
-  
-  s.subspec 'GQHPCDPickerView' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHPCDPickerView/*'
-  end
-  
-  s.subspec 'GQHSinglePicker' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHPCDPickerView/*'
-  end
-  
-  s.subspec 'GQHSlideView' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHSlideView/*'
-    ss.dependency 'SDWebImage'
-  end
-  
-  s.subspec 'GQHStepperView' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GQHStepperView/*'
-  end
-  
-  s.subspec 'SegmentView' do |ss|
-    ss.source_files = 'privateLibrary/Classes/SegmentView/*'
-  end
-  
-  s.subspec 'SGPagingView' do |ss|
-    ss.source_files = 'privateLibrary/Classes/SGPagingView/*'
-       ss.subspec 'Category' do |sss|
-           sss.source_files = 'privateLibrary/Classes/SGPagingView/Category/*'
-        end
-       ss.subspec 'SGPageContent' do |sss|
-           sss.source_files = 'privateLibrary/Classes/SGPagingView/SGPageContent/*'
-        end
-      ss.subspec 'SGPageTitle' do |sss|
-           sss.source_files = 'privateLibrary/Classes/SGPagingView/SGPageTitle/*'
-        end
-      ss.subspec 'Controller' do |sss|
-         sss.source_files = 'privateLibrary/Classes/SGPagingView/Controller/*'
-        end
-  end
+  # s.subspec 'GQHDatePicker' do |ss|
+  #  ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
+  # end
   
   
-  s.subspec 'SortingByPinyin' do |ss|
-    ss.source_files = 'privateLibrary/Classes/SortingByPinyin/*'
-  end
-  
-  s.subspec 'TouchID' do |ss|
-    ss.source_files = 'privateLibrary/Classes/TouchID/*'
-  end
-  
-  s.subspec 'GJNoCrash' do |ss|
-    ss.source_files = 'privateLibrary/Classes/GJNoCrash/*'
-  end
-  
- 
+
    s.resource_bundles = {
      'privateLibrary' => ['privateLibrary/Assets/*.png']
    }
@@ -97,6 +44,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   
-  s.dependency 'SDWebImage'
+  #s.dependency 'SDWebImage'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

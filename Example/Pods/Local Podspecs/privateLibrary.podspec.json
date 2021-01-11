@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,79 +22,5 @@
     "privateLibrary": [
       "privateLibrary/Assets/*.png"
     ]
-  },
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  },
-  "subspecs": [
-    {
-      "name": "GQHDatePicker",
-      "source_files": "privateLibrary/Classes/GQHDatePicker/*"
-    },
-    {
-      "name": "GQHGlobalTimer",
-      "source_files": "privateLibrary/Classes/GQHGlobalTimer/*"
-    },
-    {
-      "name": "GQHPCDPickerView",
-      "source_files": "privateLibrary/Classes/GQHPCDPickerView/*"
-    },
-    {
-      "name": "GQHSinglePicker",
-      "source_files": "privateLibrary/Classes/GQHPCDPickerView/*"
-    },
-    {
-      "name": "GQHSlideView",
-      "source_files": "privateLibrary/Classes/GQHSlideView/*",
-      "dependencies": {
-        "SDWebImage": [
-
-        ]
-      }
-    },
-    {
-      "name": "GQHStepperView",
-      "source_files": "privateLibrary/Classes/GQHStepperView/*"
-    },
-    {
-      "name": "SegmentView",
-      "source_files": "privateLibrary/Classes/SegmentView/*"
-    },
-    {
-      "name": "SGPagingView",
-      "source_files": "privateLibrary/Classes/SGPagingView/*",
-      "subspecs": [
-        {
-          "name": "Category",
-          "source_files": "privateLibrary/Classes/SGPagingView/Category/*"
-        },
-        {
-          "name": "SGPageContent",
-          "source_files": "privateLibrary/Classes/SGPagingView/SGPageContent/*"
-        },
-        {
-          "name": "SGPageTitle",
-          "source_files": "privateLibrary/Classes/SGPagingView/SGPageTitle/*"
-        },
-        {
-          "name": "Controller",
-          "source_files": "privateLibrary/Classes/SGPagingView/Controller/*"
-        }
-      ]
-    },
-    {
-      "name": "SortingByPinyin",
-      "source_files": "privateLibrary/Classes/SortingByPinyin/*"
-    },
-    {
-      "name": "TouchID",
-      "source_files": "privateLibrary/Classes/TouchID/*"
-    },
-    {
-      "name": "GJNoCrash",
-      "source_files": "privateLibrary/Classes/GJNoCrash/*"
-    }
-  ]
+  }
 }

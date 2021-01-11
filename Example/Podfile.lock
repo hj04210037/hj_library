@@ -4,56 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - privateLibrary (0.1.5):
-    - privateLibrary/GJNoCrash (= 0.1.5)
-    - privateLibrary/GQHDatePicker (= 0.1.5)
-    - privateLibrary/GQHGlobalTimer (= 0.1.5)
-    - privateLibrary/GQHPCDPickerView (= 0.1.5)
-    - privateLibrary/GQHSinglePicker (= 0.1.5)
-    - privateLibrary/GQHSlideView (= 0.1.5)
-    - privateLibrary/GQHStepperView (= 0.1.5)
-    - privateLibrary/SegmentView (= 0.1.5)
-    - privateLibrary/SGPagingView (= 0.1.5)
-    - privateLibrary/SortingByPinyin (= 0.1.5)
-    - privateLibrary/TouchID (= 0.1.5)
-    - SDWebImage
-  - privateLibrary/GJNoCrash (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHDatePicker (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHGlobalTimer (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHPCDPickerView (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHSinglePicker (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHSlideView (0.1.5):
-    - SDWebImage
-  - privateLibrary/GQHStepperView (0.1.5):
-    - SDWebImage
-  - privateLibrary/SegmentView (0.1.5):
-    - SDWebImage
-  - privateLibrary/SGPagingView (0.1.5):
-    - privateLibrary/SGPagingView/Category (= 0.1.5)
-    - privateLibrary/SGPagingView/Controller (= 0.1.5)
-    - privateLibrary/SGPagingView/SGPageContent (= 0.1.5)
-    - privateLibrary/SGPagingView/SGPageTitle (= 0.1.5)
-    - SDWebImage
-  - privateLibrary/SGPagingView/Category (0.1.5):
-    - SDWebImage
-  - privateLibrary/SGPagingView/Controller (0.1.5):
-    - SDWebImage
-  - privateLibrary/SGPagingView/SGPageContent (0.1.5):
-    - SDWebImage
-  - privateLibrary/SGPagingView/SGPageTitle (0.1.5):
-    - SDWebImage
-  - privateLibrary/SortingByPinyin (0.1.5):
-    - SDWebImage
-  - privateLibrary/TouchID (0.1.5):
-    - SDWebImage
-  - SDWebImage (5.10.2):
-    - SDWebImage/Core (= 5.10.2)
-  - SDWebImage/Core (5.10.2)
+  - privateLibrary (0.1.6)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -62,7 +13,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-    - SDWebImage
 
 EXTERNAL SOURCES:
   privateLibrary:
@@ -70,8 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  privateLibrary: 957916de8f0e8a205a462bae3700f68b6c53e7e8
-  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  privateLibrary: e87c92a845e97b771c3b7f100a758b04229585bc
 
 PODFILE CHECKSUM: 4e495300deb8b367fb3556b8055cb3d76d3eaea1
 
