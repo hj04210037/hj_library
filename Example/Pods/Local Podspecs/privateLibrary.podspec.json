@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.3.3"
+    "tag": "0.3.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -123,6 +123,10 @@
           "source_files": "privateLibrary/Classes/XHLaunchAd/XHLaunchAd/*"
         }
       ]
+    },
+    {
+      "name": "TZImagePickerController",
+      "source_files": "privateLibrary/Classes/TZImagePickerController/*"
     }
   ]
 }

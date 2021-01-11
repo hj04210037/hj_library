@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.3.3'
+  s.version          = '0.3.4'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -108,6 +108,9 @@ Pod::Spec.new do |s|
        
   end
 
+  s.subspec 'TZImagePickerController' do |ss|
+    ss.source_files ='privateLibrary/Classes/TZImagePickerController/*'
+  end
 
 
 
