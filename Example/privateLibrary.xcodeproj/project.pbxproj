@@ -11,6 +11,8 @@
 		06FE000A25AC3CF700622B7A /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FE000825AC3CF700622B7A /* IQKeyboardReturnKeyHandler.m */; };
 		06FE005125AC419300622B7A /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FE004F25AC419300622B7A /* TTGTagCollectionView.m */; };
 		06FE005225AC419300622B7A /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FE005025AC419300622B7A /* TTGTextTagCollectionView.m */; };
+		06FE006C25AC438700622B7A /* DashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FE006A25AC438700622B7A /* DashLine.m */; };
+		06FE009325AC44BD00622B7A /* SXHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FE009125AC44BD00622B7A /* SXHeadLine.m */; };
 		06FEF90525A8353200622B7A /* stepperview_minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FEF90325A8353200622B7A /* stepperview_minus.png */; };
 		06FEF90625A8353200622B7A /* stepperview_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FEF90425A8353200622B7A /* stepperview_plus.png */; };
 		06FEFAC725ABDEF700622B7A /* NSMutableDictionary+GJCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFAAF25ABDEF700622B7A /* NSMutableDictionary+GJCrash.m */; };
@@ -80,6 +82,10 @@
 		06FE004E25AC419300622B7A /* TTGTextTagCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagCollectionView.h; sourceTree = "<group>"; };
 		06FE004F25AC419300622B7A /* TTGTagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTagCollectionView.m; sourceTree = "<group>"; };
 		06FE005025AC419300622B7A /* TTGTextTagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagCollectionView.m; sourceTree = "<group>"; };
+		06FE006A25AC438700622B7A /* DashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashLine.m; sourceTree = "<group>"; };
+		06FE006B25AC438700622B7A /* DashLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashLine.h; sourceTree = "<group>"; };
+		06FE009125AC44BD00622B7A /* SXHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXHeadLine.m; sourceTree = "<group>"; };
+		06FE009225AC44BD00622B7A /* SXHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXHeadLine.h; sourceTree = "<group>"; };
 		06FEF90325A8353200622B7A /* stepperview_minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stepperview_minus.png; sourceTree = "<group>"; };
 		06FEF90425A8353200622B7A /* stepperview_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stepperview_plus.png; sourceTree = "<group>"; };
 		06FEFAAF25ABDEF700622B7A /* NSMutableDictionary+GJCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+GJCrash.m"; sourceTree = "<group>"; };
@@ -212,9 +218,29 @@
 			path = TTGTagCollectionView;
 			sourceTree = "<group>";
 		};
+		06FE006925AC438700622B7A /* DashLine */ = {
+			isa = PBXGroup;
+			children = (
+				06FE006A25AC438700622B7A /* DashLine.m */,
+				06FE006B25AC438700622B7A /* DashLine.h */,
+			);
+			path = DashLine;
+			sourceTree = "<group>";
+		};
+		06FE009025AC44BC00622B7A /* Wonderful_HeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				06FE009125AC44BD00622B7A /* SXHeadLine.m */,
+				06FE009225AC44BD00622B7A /* SXHeadLine.h */,
+			);
+			path = Wonderful_HeadLine;
+			sourceTree = "<group>";
+		};
 		06FEF88125A80B6000622B7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				06FE009025AC44BC00622B7A /* Wonderful_HeadLine */,
+				06FE006925AC438700622B7A /* DashLine */,
 				06FE004C25AC419300622B7A /* TTGTagCollectionView */,
 				06FEFDF825AC0C7500622B7A /* IQKeyboardManager */,
 				06FEFDBD25AC09C500622B7A /* CountDown */,
@@ -672,6 +698,7 @@
 				06FEFFEB25AC3C3200622B7A /* IQTitleBarButtonItem.m in Sources */,
 				06FEFC9125ABFAF500622B7A /* LYEmptyView.m in Sources */,
 				06FEFEE525AC290400622B7A /* IQTextView.m in Sources */,
+				06FE006C25AC438700622B7A /* DashLine.m in Sources */,
 				06FE000925AC3CF700622B7A /* IQKeyboardManager.m in Sources */,
 				06FEFC8F25ABFAF500622B7A /* UIView+LYExtension.m in Sources */,
 				06FEFC9025ABFAF500622B7A /* DemoEmptyView.m in Sources */,
@@ -685,6 +712,7 @@
 				06FE005125AC419300622B7A /* TTGTagCollectionView.m in Sources */,
 				06FEFACA25ABDEF700622B7A /* NSArray+GJCrash.m in Sources */,
 				06FEFAC725ABDEF700622B7A /* NSMutableDictionary+GJCrash.m in Sources */,
+				06FE009325AC44BD00622B7A /* SXHeadLine.m in Sources */,
 				06FEFFEA25AC3C3200622B7A /* IQToolbar.m in Sources */,
 				06FEFACF25ABDEF700622B7A /* NSObject+NSNotificationCrash.m in Sources */,
 				06FEFFEC25AC3C3200622B7A /* IQBarButtonItem.m in Sources */,

@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.2.8"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -84,6 +84,14 @@
     {
       "name": "CountDown",
       "source_files": "privateLibrary/Classes/TTGTagCollectionView/*"
+    },
+    {
+      "name": "DashLine",
+      "source_files": "privateLibrary/Classes/DashLine/*"
+    },
+    {
+      "name": "Wonderful_HeadLine",
+      "source_files": "privateLibrary/Classes/Wonderful_HeadLine/*"
     }
   ]
 }
