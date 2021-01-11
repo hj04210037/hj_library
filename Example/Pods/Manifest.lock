@@ -10,17 +10,15 @@ PODS:
   - hl/DWQLogisticsInformation (0.1.2):
     - Masonry
   - Masonry (1.1.0)
-  - privateLibrary (0.2.0):
-    - privateLibrary/CountDown (= 0.2.0)
-    - privateLibrary/GJNoCrash (= 0.2.0)
-    - privateLibrary/LYEmptyView (= 0.2.0)
-    - privateLibrary/test (= 0.2.0)
-  - privateLibrary/CountDown (0.2.0)
-  - privateLibrary/GJNoCrash (0.2.0)
-  - privateLibrary/LYEmptyView (0.2.0):
+  - privateLibrary (0.2.1):
+    - privateLibrary/CountDown (= 0.2.1)
+    - privateLibrary/GJNoCrash (= 0.2.1)
+    - privateLibrary/LYEmptyView (= 0.2.1)
+  - privateLibrary/CountDown (0.2.1)
+  - privateLibrary/GJNoCrash (0.2.1)
+  - privateLibrary/LYEmptyView (0.2.1):
     - header
     - hl
-  - privateLibrary/test (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -44,7 +42,7 @@ SPEC CHECKSUMS:
   header: 52c56edf4e1ab4605a951df6af94cc2747fa9a51
   hl: c389ca985f17f5813c2ac5b59d0292ffe60ce9d4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  privateLibrary: 648965112358e0ae819c6dcfed29837a1524ba92
+  privateLibrary: 47c9ebbb78e659199b1cd116cd0de6e5f763a9ff
 
 PODFILE CHECKSUM: fc46a513b7a4fc4634968a2972a37c8d7e633962
 
