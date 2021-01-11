@@ -10,17 +10,21 @@ PODS:
   - hl/DWQLogisticsInformation (0.1.2):
     - Masonry
   - Masonry (1.1.0)
-  - privateLibrary (0.2.5):
-    - privateLibrary/CountDown (= 0.2.5)
-    - privateLibrary/GJNoCrash (= 0.2.5)
-    - privateLibrary/IQKeyboardManager (= 0.2.5)
-    - privateLibrary/LYEmptyView (= 0.2.5)
-  - privateLibrary/CountDown (0.2.5)
-  - privateLibrary/GJNoCrash (0.2.5)
-  - privateLibrary/IQKeyboardManager (0.2.5):
-    - privateLibrary/IQKeyboardManager/Constants (= 0.2.5)
-  - privateLibrary/IQKeyboardManager/Constants (0.2.5)
-  - privateLibrary/LYEmptyView (0.2.5):
+  - privateLibrary (0.2.6):
+    - privateLibrary/CountDown (= 0.2.6)
+    - privateLibrary/GJNoCrash (= 0.2.6)
+    - privateLibrary/IQKeyboardManager (= 0.2.6)
+    - privateLibrary/LYEmptyView (= 0.2.6)
+  - privateLibrary/CountDown (0.2.6)
+  - privateLibrary/GJNoCrash (0.2.6)
+  - privateLibrary/IQKeyboardManager (0.2.6):
+    - privateLibrary/IQKeyboardManager/Categories (= 0.2.6)
+    - privateLibrary/IQKeyboardManager/Constants (= 0.2.6)
+    - privateLibrary/IQKeyboardManager/IQTextView (= 0.2.6)
+  - privateLibrary/IQKeyboardManager/Categories (0.2.6)
+  - privateLibrary/IQKeyboardManager/Constants (0.2.6)
+  - privateLibrary/IQKeyboardManager/IQTextView (0.2.6)
+  - privateLibrary/LYEmptyView (0.2.6):
     - header
     - hl
 
@@ -46,7 +50,7 @@ SPEC CHECKSUMS:
   header: 52c56edf4e1ab4605a951df6af94cc2747fa9a51
   hl: c389ca985f17f5813c2ac5b59d0292ffe60ce9d4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  privateLibrary: e05943458a4b884cdb99476dc027f172023052da
+  privateLibrary: 2adf0b3d8c74fe086febf0512204801192aef2a2
 
 PODFILE CHECKSUM: fc46a513b7a4fc4634968a2972a37c8d7e633962
 

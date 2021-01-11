@@ -28,6 +28,11 @@
 		06FEFC9125ABFAF500622B7A /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC8A25ABFAF500622B7A /* LYEmptyView.m */; };
 		06FEFDC025AC09C500622B7A /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFDBF25AC09C500622B7A /* CountDown.m */; };
 		06FEFEE525AC290400622B7A /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFEE325AC290400622B7A /* IQTextView.m */; };
+		06FEFF7425AC325F00622B7A /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFF6A25AC325F00622B7A /* IQNSArray+Sort.m */; };
+		06FEFF7525AC325F00622B7A /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFF6C25AC325F00622B7A /* IQUITextFieldView+Additions.m */; };
+		06FEFF7625AC325F00622B7A /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFF6D25AC325F00622B7A /* IQUIScrollView+Additions.m */; };
+		06FEFF7725AC325F00622B7A /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFF6E25AC325F00622B7A /* IQUIView+Hierarchy.m */; };
+		06FEFF7825AC325F00622B7A /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFF7225AC325F00622B7A /* IQUIViewController+Additions.m */; };
 		2E68C9DE12C8C6021013ADC8 /* Pods_privateLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16668C3398901D4637CEC7E /* Pods_privateLibrary_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -101,6 +106,16 @@
 		06FEFEAD25AC273200622B7A /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 		06FEFEE325AC290400622B7A /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		06FEFEE425AC290400622B7A /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		06FEFF6A25AC325F00622B7A /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		06FEFF6B25AC325F00622B7A /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		06FEFF6C25AC325F00622B7A /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		06FEFF6D25AC325F00622B7A /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		06FEFF6E25AC325F00622B7A /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		06FEFF6F25AC325F00622B7A /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		06FEFF7025AC325F00622B7A /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		06FEFF7125AC325F00622B7A /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		06FEFF7225AC325F00622B7A /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		06FEFF7325AC325F00622B7A /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		526545A8E3128CB38A867B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CE4D6C5C093DA9F5424D034 /* Pods-privateLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privateLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-privateLibrary_Tests/Pods-privateLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* privateLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = privateLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,6 +257,7 @@
 		06FEFDF825AC0C7500622B7A /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
+				06FEFF6925AC325F00622B7A /* Categories */,
 				06FEFEE225AC290400622B7A /* IQTextView */,
 				06FEFEAB25AC273200622B7A /* Constants */,
 			);
@@ -264,6 +280,23 @@
 				06FEFEE425AC290400622B7A /* IQTextView.h */,
 			);
 			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		06FEFF6925AC325F00622B7A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				06FEFF6A25AC325F00622B7A /* IQNSArray+Sort.m */,
+				06FEFF6B25AC325F00622B7A /* IQUIViewController+Additions.h */,
+				06FEFF6C25AC325F00622B7A /* IQUITextFieldView+Additions.m */,
+				06FEFF6D25AC325F00622B7A /* IQUIScrollView+Additions.m */,
+				06FEFF6E25AC325F00622B7A /* IQUIView+Hierarchy.m */,
+				06FEFF6F25AC325F00622B7A /* IQNSArray+Sort.h */,
+				06FEFF7025AC325F00622B7A /* IQUIScrollView+Additions.h */,
+				06FEFF7125AC325F00622B7A /* IQUITextFieldView+Additions.h */,
+				06FEFF7225AC325F00622B7A /* IQUIViewController+Additions.m */,
+				06FEFF7325AC325F00622B7A /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		33A58DBFAFFA463060ADCA25 /* Pods */ = {
@@ -566,7 +599,10 @@
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
 				06FEFDC025AC09C500622B7A /* CountDown.m in Sources */,
 				06FEFAC825ABDEF700622B7A /* NSString+GJCrash.m in Sources */,
+				06FEFF7725AC325F00622B7A /* IQUIView+Hierarchy.m in Sources */,
+				06FEFF7425AC325F00622B7A /* IQNSArray+Sort.m in Sources */,
 				06FEFAD025ABDEF700622B7A /* NSMutableString+GJCrash.m in Sources */,
+				06FEFF7525AC325F00622B7A /* IQUITextFieldView+Additions.m in Sources */,
 				06FEFACC25ABDEF700622B7A /* NSObject+GJSwizzle.m in Sources */,
 				06FEFC8E25ABFAF500622B7A /* UIView+Empty.m in Sources */,
 				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
@@ -575,7 +611,9 @@
 				06FEFC8F25ABFAF500622B7A /* UIView+LYExtension.m in Sources */,
 				06FEFC9025ABFAF500622B7A /* DemoEmptyView.m in Sources */,
 				06FEFC8D25ABFAF500622B7A /* LYEmptyBaseView.m in Sources */,
+				06FEFF7825AC325F00622B7A /* IQUIViewController+Additions.m in Sources */,
 				06FEFACD25ABDEF700622B7A /* NSMutableAttributedString+GJCrash.m in Sources */,
+				06FEFF7625AC325F00622B7A /* IQUIScrollView+Additions.m in Sources */,
 				06FEFAD125ABDEF700622B7A /* NSDictionary+GJCrash.m in Sources */,
 				06FEFACB25ABDEF700622B7A /* NSAttributedString+GJCrash.m in Sources */,
 				06FEFACA25ABDEF700622B7A /* NSArray+GJCrash.m in Sources */,
