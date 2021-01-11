@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -80,8 +80,12 @@ Pod::Spec.new do |s|
     ss.source_files ='privateLibrary/Classes/DashLine/*'
   end
   
-    s.subspec 'Wonderful_HeadLine' do |ss|
+  s.subspec 'Wonderful_HeadLine' do |ss|
     ss.source_files ='privateLibrary/Classes/Wonderful_HeadLine/*'
+  end
+  
+  s.subspec 'WMZDropDownMenu' do |ss|
+    ss.source_files ='privateLibrary/Classes/WMZDropDownMenu/*'
   end
 
 
