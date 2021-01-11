@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -86,6 +86,26 @@ Pod::Spec.new do |s|
   
   s.subspec 'WMZDropDownMenu' do |ss|
     ss.source_files ='privateLibrary/Classes/WMZDropDownMenu/*'
+  end
+  
+  
+  s.subspec 'XHLaunchAd' do |ss|
+       ss.subspec 'UIViewController+' do |sss|
+            sss.source_files ='privateLibrary/Classes/XHLaunchAd/UIViewController+/*'
+       end
+       
+       ss.subspec 'Lib' do |sss|
+            sss.subspec 'FLAnimatedImage' do |ssss|
+                ssss.source_files ='privateLibrary/Classes/XHLaunchAd/Lib/FLAnimatedImage/*'
+            end
+       end
+       
+       ss.subspec 'XHLaunchAd' do |sss|
+            sss.dependency 'privateLibrary/XHLaunchAd/Lib/FLAnimatedImage'
+            sss.source_files ='privateLibrary/Classes/XHLaunchAd/XHLaunchAd/*'
+       end
+       
+       
   end
 
 

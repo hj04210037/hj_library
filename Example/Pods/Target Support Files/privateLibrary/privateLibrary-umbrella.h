@@ -62,6 +62,20 @@
 #import "WMZDropMenuTool.h"
 #import "WMZDropTableView.h"
 #import "SXHeadLine.h"
+#import "FLAnimatedImage.h"
+#import "FLAnimatedImageView.h"
+#import "UIViewController+Nav.h"
+#import "XHLaunchAd.h"
+#import "XHLaunchAdButton.h"
+#import "XHLaunchAdCache.h"
+#import "XHLaunchAdConfiguration.h"
+#import "XHLaunchAdConst.h"
+#import "XHLaunchAdController.h"
+#import "XHLaunchAdDownloader.h"
+#import "XHLaunchAdImageManager.h"
+#import "XHLaunchAdImageView+XHLaunchAdCache.h"
+#import "XHLaunchAdView.h"
+#import "XHLaunchImageView.h"
 
 FOUNDATION_EXPORT double privateLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char privateLibraryVersionString[];
