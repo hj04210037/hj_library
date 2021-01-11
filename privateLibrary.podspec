@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -47,19 +47,28 @@ Pod::Spec.new do |s|
   end
   
   
-  s.subspec 'IQKeyboardManager' do |ss|
-      # ss.source_files ='privateLibrary/Classes/IQKeyboardManager/*'
-        ss.subspec 'Constants' do |sss|
-        sss.source_files ='privateLibrary/Classes/IQKeyboardManager/Constants/**/*'
-        end
-  
-        ss.subspec 'IQTextView' do |sss|
-            sss.source_files ='privateLibrary/Classes/IQKeyboardManager/IQTextView/**/*'
+  s.subspec 'IQKeyboardManager' do |subIq|
+       subIq.source_files ='privateLibrary/Classes/IQKeyboardManager/*'
+       subIq.subspec 'Constants' do |co|
+            co.source_files ='privateLibrary/Classes/IQKeyboardManager/Constants/*'
         end
         
-        ss.subspec 'Categories' do |sss|
-            sss.source_files ='privateLibrary/Classes/IQKeyboardManager/Categories/**/*'
+        
+        subIq.subspec 'IQTextView' do |iq|
+            iq.dependency 'privateLibrary/IQKeyboardManager/Constants'
+            iq.source_files ='privateLibrary/Classes/IQKeyboardManager/IQTextView/*'
         end
+        
+        subIq.subspec 'Categories' do |ca|
+            ca.dependency 'privateLibrary/IQKeyboardManager/Constants'
+            ca.source_files ='privateLibrary/Classes/IQKeyboardManager/Categories/*'
+        end
+        
+        subIq.subspec 'IQToolbar' do |tb|
+            tb.dependency 'privateLibrary/IQKeyboardManager/Categories'
+            tb.source_files ='privateLibrary/Classes/IQKeyboardManager/IQToolbar/*'
+        end
+        
         
   end
 

@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.2.6"
+    "tag": "0.2.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -46,18 +46,38 @@
     },
     {
       "name": "IQKeyboardManager",
+      "source_files": "privateLibrary/Classes/IQKeyboardManager/*",
       "subspecs": [
         {
           "name": "Constants",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/Constants/**/*"
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/Constants/*"
         },
         {
           "name": "IQTextView",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQTextView/**/*"
+          "dependencies": {
+            "privateLibrary/IQKeyboardManager/Constants": [
+
+            ]
+          },
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQTextView/*"
         },
         {
           "name": "Categories",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/Categories/**/*"
+          "dependencies": {
+            "privateLibrary/IQKeyboardManager/Constants": [
+
+            ]
+          },
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/Categories/*"
+        },
+        {
+          "name": "IQToolbar",
+          "dependencies": {
+            "privateLibrary/IQKeyboardManager/Categories": [
+
+            ]
+          },
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQToolbar/*"
         }
       ]
     }
