@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "9.0"
@@ -46,7 +46,6 @@
     },
     {
       "name": "IQKeyboardManager",
-      "source_files": "privateLibrary/Classes/IQKeyboardManager/**/*",
       "subspecs": [
         {
           "name": "Constants",
