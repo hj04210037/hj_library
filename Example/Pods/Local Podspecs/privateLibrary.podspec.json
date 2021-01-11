@@ -1,6 +1,6 @@
 {
   "name": "privateLibrary",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "app private library",
   "description": "seed private library",
   "homepage": "https://github.com/hj04210037/hj_library",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/hj04210037/hj_library.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.0"
   },
+  "source_files": "privateLibrary/Classes/**/*",
   "resource_bundles": {
     "privateLibrary": [
       "privateLibrary/Assets/*.png"

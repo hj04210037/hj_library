@@ -299,7 +299,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8D49B0A223054080AE598B57 /* [CP] Copy Pods Resources */,
+				3C64CF8ED991F1A2474991F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -390,22 +390,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8D49B0A223054080AE598B57 /* [CP] Copy Pods Resources */ = {
+		3C64CF8ED991F1A2474991F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-privateLibrary_Example/Pods-privateLibrary_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/privateLibrary/privateLibrary.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-privateLibrary_Example/Pods-privateLibrary_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/privateLibrary/privateLibrary.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/privateLibrary.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/privateLibrary.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-privateLibrary_Example/Pods-privateLibrary_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-privateLibrary_Example/Pods-privateLibrary_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B1C2DB6586461CDB2DC388AA /* [CP] Embed Pods Frameworks */ = {
