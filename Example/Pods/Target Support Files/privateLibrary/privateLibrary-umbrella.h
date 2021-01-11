@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CountDown.h"
 #import "GJCrashLog.h"
 #import "NSArray+GJCrash.h"
 #import "NSAttributedString+GJCrash.h"
@@ -28,7 +29,6 @@
 #import "LYEmptyViewHeader.h"
 #import "UIView+Empty.h"
 #import "UIView+LYExtension.h"
-#import "HJt.h"
 
 FOUNDATION_EXPORT double privateLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char privateLibraryVersionString[];

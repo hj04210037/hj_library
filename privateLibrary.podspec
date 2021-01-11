@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -44,6 +44,13 @@ Pod::Spec.new do |s|
   s.subspec 'test' do |te|
     te.source_files ='privateLibrary/Classes/test/*'
   end
+  
+  s.subspec 'CountDown' do |co|
+      co.source_files ='privateLibrary/Classes/CountDown/*'
+  end
+
+
+
 
   
   
