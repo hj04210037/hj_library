@@ -46,23 +46,11 @@
     },
     {
       "name": "IQKeyboardManager",
-      "source_files": "privateLibrary/Classes/IQKeyboardManager/*",
+      "source_files": "privateLibrary/Classes/IQKeyboardManager/**/*",
       "subspecs": [
         {
-          "name": "IQTextView",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQTextView/*"
-        },
-        {
-          "name": "IQToolbar",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/IQToolbar/*"
-        },
-        {
           "name": "Constants",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/Constants/*"
-        },
-        {
-          "name": "Categories",
-          "source_files": "privateLibrary/Classes/IQKeyboardManager/Categories/*"
+          "source_files": "privateLibrary/Classes/IQKeyboardManager/Constants/**/*"
         }
       ]
     }

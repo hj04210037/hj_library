@@ -48,22 +48,10 @@ Pod::Spec.new do |s|
   
   
   s.subspec 'IQKeyboardManager' do |ss|
-          ss.source_files ='privateLibrary/Classes/IQKeyboardManager/*'
+       ss.source_files ='privateLibrary/Classes/IQKeyboardManager/**/*'
         
-            ss.subspec 'IQTextView' do |sss|
-                sss.source_files ='privateLibrary/Classes/IQKeyboardManager/IQTextView/*'
-        end
-        
-            ss.subspec 'IQToolbar' do |sss|
-            sss.source_files ='privateLibrary/Classes/IQKeyboardManager/IQToolbar/*'
-        end
-        
-            ss.subspec 'Constants' do |sss|
-            sss.source_files ='privateLibrary/Classes/IQKeyboardManager/Constants/*'
-        end
-        
-        ss.subspec 'Categories' do |sss|
-            sss.source_files ='privateLibrary/Classes/IQKeyboardManager/Categories/*'
+        ss.subspec 'Constants' do |sss|
+        sss.source_files ='privateLibrary/Classes/IQKeyboardManager/Constants/**/*'
         end
   end
 
