@@ -1,4 +1,10 @@
+
+source 'https://github.com/hj04210037/HJ_Seed_Spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 use_frameworks!
+
 
 platform :ios, '9.0'
 

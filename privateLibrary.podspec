@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -28,12 +28,24 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'privateLibrary/Classes/**/*'
+  #s.source_files = 'privateLibrary/Classes/*'
   
   
-  # s.subspec 'GQHDatePicker' do |ss|
-  #  ss.source_files = 'privateLibrary/Classes/GQHDatePicker/*'
-  # end
+  s.subspec 'GJNoCrash' do |ss|
+    ss.source_files = 'privateLibrary/Classes/GJNoCrash/*'
+  end
+  
+  s.subspec 'LYEmptyView' do |ss|
+    ss.source_files = 'privateLibrary/Classes/LYEmptyView/*'
+    ss.dependency 'header'
+    ss.dependency 'hl'
+  end
+  
+  s.subspec 'test' do |te|
+    te.source_files ='privateLibrary/Classes/test/*'
+  end
+
+  
   
   
 
@@ -46,4 +58,8 @@ Pod::Spec.new do |s|
   
   #s.dependency 'SDWebImage'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  #  s.dependency 'header'
+  #  s.dependency 'hl'
+  #  s.dependency 'Masonry'
 end

@@ -1,0 +1,6 @@
+framework module hl {
+  umbrella header "hl-umbrella.h"
+
+  export *
+  module * { export * }
+}
