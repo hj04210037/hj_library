@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'privateLibrary'
-  s.version          = '0.3.4'
+  s.version          = '0.3.5'
   s.summary          = 'app private library'
 
 # This description is used to generate tags and improve search results.
@@ -110,6 +110,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'TZImagePickerController' do |ss|
     ss.source_files ='privateLibrary/Classes/TZImagePickerController/*'
+  end
+  
+  s.subspec 'SDCycleScrollView' do |ss|
+    ss.dependency 'SDWebImage'
+    ss.source_files ='privateLibrary/Classes/SDCycleScrollView/**/*'
+    ss.subspec 'PageControl' do |sss|
+        sss.source_files ='privateLibrary/Classes/SDCycleScrollView/PageControl/**/*'
+    end
   end
 
 
